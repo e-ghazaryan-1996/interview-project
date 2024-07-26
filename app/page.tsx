@@ -1,10 +1,15 @@
-import TestIcon from "../public/assets/test-icon.svg";
+import AboutUs from "@/components/landing/about-us";
+import CollectionsLanding from "@/components/landing/collections";
+import LandingHero from "@/components/landing/landing-hero";
 
-export default function Home() {
+const Landing = () => {
   return (
-    <main className='flex'>
-      Hello world
-      <TestIcon className='size-10' />
-    </main>
+    <>
+      <LandingHero />
+      <AboutUs />
+      <CollectionsLanding />
+    </>
   );
-}
+};
+
+export default Landing;

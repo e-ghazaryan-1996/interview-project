@@ -7,3 +7,22 @@
     text-wrap: balance;
   }
 }
+
+@layer components {
+  .bg-primary {
+    @apply bg-white dark:bg-jet-black;
+  }
+
+  .text-primary {
+    @apply text-dark-blue dark:text-white;
+  }
+
+  .bg-secondary {
+    @apply bg-gray dark:bg-char-coal
+  }
+}
+
+a:hover {
+  color: #F000FF;
+  transition: all ease-in 0.4s;
+}
